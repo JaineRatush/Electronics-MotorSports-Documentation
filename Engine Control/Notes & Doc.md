@@ -5,10 +5,9 @@ Author: Jaine Ratush
 Objectives: List Required Sensors, Find MoTec ECU that meets requirements, Check if we have all sensors.  
 
 Required Sensors according to 2007 Service Manual I found online:   
-
+### IO list
 | Component | Purpose | How/What | 
-|---|---|----:|
-| **IACV(Idle Air Control Valve)** | Controls the amount of air bypassing the throttle for idle-speed control like during cruising | Solenoid + Plunger or Stepper motor + Lead Screw |    
+|---|---|----:|    
 | **Knock** | Detects abnormal combustion| contact, not required but we should have it |  
 | **MAP(Manifold Air Pressure)** | Measures intake-manifold pressure to determine engine load | Piezoelectric Diaphram Flexes w/ Pressure |  
 | **IAT (Intake Air Temp)** | Measures intake-air temperature for air-density/fueling calculations | NCT Thermistor(Temp sensitive resistor) |  
@@ -21,8 +20,13 @@ Note: These are directly from Honda's stock ECM for the 2007-2009 CBR600RR.
 You may notice **Lambda** and **O2** sensors are missing. That's becuase the stock ECM/ECU is Open Loop and was already calibrated by Honda Engineers.     
 However, we're using an aftermarket ECU becuase FSAE rules on air-intake would get us a very poor Open Loop results, and the Honda ECM would require extensive re-mapping. So we'll need new schematics including Lambda and O2.  
 *Open Loop*- Pre-mapped range of Injector Pulse Widths, no instantaneous correction for an ideal 14.7:1 AFR.    
+
+### Actuator List  
+| Component | Purpose | How/What |   
+|---|---|----:|    
+| **IACV(Idle Air Control Valve)** | Controls the amount of air bypassing the throttle for idle-speed control like during cruising | Solenoid + Plunger or Stepper motor + Lead Screw |    
   
-ECU Model: **PE3 8400**. ---Not finalized, still need to discuss with team.  
+ECU Model: **PE3 8400**. ---Not finalized, still need to discuss with team, and finish the Actuator List.  
 
 My Reasoning: PE3 was developed with FSAE in mind. It has the required IO connections, stepper drivers, and IACV driver for the CBR600RR. It's also much cheaper and simpler than a MoTec. Perfect for getting our team rolling.    
 
