@@ -27,4 +27,4 @@ Reasoning: PE3 was developed with FSAE in mind. It has the required IO connectio
 
 Missing Sensors *Inventory*: Lambda, O2. 
 I'll upload a SpreadSheet/BOM here soon.   
-
+We'll need to build our own wire harness in the near future. 
