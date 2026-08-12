@@ -22,9 +22,10 @@ You may notice **Lambda** and **O2** sensors are missing. That's becuase the sto
 However, we're using an aftermarket ECU becuase FSAE rules on air-intake would get us a very poor Open Loop results, and the Honda ECM would require extensive re-mapping. So we'll need new schematics including Lambda and O2.  
 *Open Loop*- Pre-mapped range of Injector Pulse Widths, no instantaneous correction for an ideal 14.7:1 AFR.    
   
-ECU Model: **PE3 8400**.  
-Reasoning: PE3 was developed with FSAE in mind. It has the required IO connections, stepper drivers, and IACV driver for the CBR600RR. It's also much cheaper and simpler than a MoTec. Perfect for getting our team rolling.  
+ECU Model: **PE3 8400**. ---Not finalized, still need to discuss with team.  
 
-Missing Sensors *Inventory*: Lambda, O2. 
-I'll upload a SpreadSheet/BOM here soon.   
+My Reasoning: PE3 was developed with FSAE in mind. It has the required IO connections, stepper drivers, and IACV driver for the CBR600RR. It's also much cheaper and simpler than a MoTec. Perfect for getting our team rolling.    
+
+Missing Sensors *Inventory*: Lambda, O2.   
+I'll upload a SpreadSheet/BOM here soon.     
 We'll need to build our own wire harness in the near future. 
