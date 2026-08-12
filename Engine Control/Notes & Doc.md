@@ -1,4 +1,4 @@
-## I'm a ME learning EE things, so this will be a glossary and notes
+## Sensors, Actuators, ECU decisions, ECU Programming
 Engine: CBR600RR 2009  
 
 Author: Jaine Ratush  
@@ -19,7 +19,7 @@ Required Sensors according to 2007 Service Manual I found online:
 
 Note: These are directly from Honda's stock ECM for the 2007-2009 CBR600RR.  
 You may notice **Lambda** and **O2** sensors are missing. That's becuase the stock ECM/ECU is Open Loop and was already calibrated by Honda Engineers.     
-However, we're using a MoTec becuase FSAE rules on air-intake would get us a very poor Open Loop results. So we'll need new schematics including Lambda and O2.  
+However, we're using an aftermarket ECU becuase FSAE rules on air-intake would get us a very poor Open Loop results, and the Honda ECM would require extensive re-mapping. So we'll need new schematics including Lambda and O2.  
 *Open Loop*- Pre-mapped range of Injector Pulse Widths, no instantaneous correction for an ideal 14.7:1 AFR.    
   
 ECU Model: **PE3 8400**.  
