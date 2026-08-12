@@ -26,7 +26,7 @@ However, we're using an aftermarket ECU becuase FSAE rules on air-intake would g
 |---|---|----:|    
 | **IACV(Idle Air Control Valve)** | Controls the amount of air bypassing the throttle for idle-speed control like during cruising | Solenoid + Plunger or Stepper motor + Lead Screw |    
   
-ECU Model: **PE3 8400**. ---Not finalized, still need to discuss with team, and finish the Actuator List.  
+ECU Model: **M150** -Depends on discount, team chose MoTec in general due other FSAE teams also using it. M150 is ideal, as it has a plethora of IO pins and CAN.   
 
 My Reasoning: PE3 was developed with FSAE in mind. It has the required IO connections, stepper drivers, and IACV driver for the CBR600RR. It's also much cheaper and simpler than a MoTec. Perfect for getting our team rolling.    
 
