@@ -1,0 +1,252 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d06f4aae-1936-40b1-b5a2-957eac1b81e8")
+	(paper "A4")
+	(title_block
+		(title "M150 Top Level")
+		(date "2026-08-20")
+		(company "Cooper Motorsports")
+		(comment 1 "Author: Jaine Ratush")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 80.01 90.17)
+		(end 182.88 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 828539f0-36bb-44b6-9bf3-deafa7709cfb)
+	)
+	(text "M150"
+		(exclude_from_sim no)
+		(at 128.778 93.218 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "76eb905b-b8ea-4eec-abf8-766af09a13b2")
+	)
+	(sheet
+		(at 111.76 99.06)
+		(size 16.51 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32fd3960-358b-4578-9d3e-46a7f4654bf0")
+		(property "Sheetname" "Connector B"
+			(at 111.76 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ConB.kicad_sch"
+			(at 111.76 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M150_Schematics"
+				(path "/d06f4aae-1936-40b1-b5a2-957eac1b81e8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 99.06)
+		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f14bfb1-45fb-453b-b840-21406bf931f2")
+		(property "Sheetname" "Connector C"
+			(at 137.16 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ConC.kicad_sch"
+			(at 137.16 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M150_Schematics"
+				(path "/d06f4aae-1936-40b1-b5a2-957eac1b81e8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 99.06)
+		(size 16.51 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afc1632a-41e0-4113-837b-d7da27af273e")
+		(property "Sheetname" "Connector D"
+			(at 160.02 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ConD.kicad_sch"
+			(at 160.02 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M150_Schematics"
+				(path "/d06f4aae-1936-40b1-b5a2-957eac1b81e8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 99.06)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b01932a5-cc23-43dc-b489-a719ff7b8ce2")
+		(property "Sheetname" "Connector A"
+			(at 83.82 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ConA.kicad_sch"
+			(at 83.82 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M150_Schematics"
+				(path "/d06f4aae-1936-40b1-b5a2-957eac1b81e8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 52.07)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f09fca8b-0e24-475d-844e-19222067878d")
+		(property "Sheetname" "Power"
+			(at 46.99 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 46.99 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M150_Schematics"
+				(path "/d06f4aae-1936-40b1-b5a2-957eac1b81e8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
